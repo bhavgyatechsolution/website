@@ -60,3 +60,48 @@ footer {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
+
+/* Technologies Section */
+.technologies-section {
+  padding: 70px 20px;
+  background: #f9fafc;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  color: #0b1f44;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.tech-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+}
+
+.tech-card:hover {
+  transform: translateY(-8px);
+}
+
+.tech-card h3 {
+  color: #0b1f44;
+  margin-bottom: 10px;
+}
+
